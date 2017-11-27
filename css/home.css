@@ -1,0 +1,8 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url("../assets/checkerboard-perspective.jpg");
+  background-size: cover;
+}

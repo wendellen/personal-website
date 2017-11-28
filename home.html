@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/home.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Lekton|Lobster" rel="stylesheet">
     <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
@@ -13,15 +14,56 @@
     <title>(つ•̀ᴥ•́)つ*:･ﾟ✧ w e l c o m e</title>
   </head>
 
+  <!-- custom cursor -->
+    <script type="text/javascript">
+   	$(document).ready(function(){
+        	$('.background').mousemove(function(e){
+            var w = $('#mycursor').outerWidth()
+            var h = $('#mycursor').outerHeight()
+             	$('#mycursor').css('left', e.clientX - w/2).css('top', e.clientY - h/2);
+        	});
+        });
+    </script>
+
   <body>
 
-    <header></header>
+    <div class="background">
 
-    <nav>
-      <div></div>
-      <div></div>
-      <div></div>
-    </nav>
+      <div id="one" class="links">
+          <a style="cursor:none" href="https://elsewhere.xyz/">
+          <!-- <img src="../assets/rhinestone1.png" style="width:19vw;height:19vw"> -->
+          <div>elsewhere</div></a>
+      </div>
+
+      <div id="two" class="links">
+          <a style="cursor:none" style="cursor:none" href="http://www.wired.co.uk/article/welcome-to-post-reality">
+          <!-- <img src="../assets/rhinestone2.png" style="width:19vw;height:19vw"> -->
+          <div>post-reality</div></a>
+      </div>
+
+      <div id="three" class="links">
+          <a style="cursor:none" href="hidden_gemz.html">
+          <!-- <img src="../assets/rhinestone3.png" style="width:19vw;height:19vw"> -->
+          <div>hidden_gemz</div></a>
+      </div>
+
+      <div id="four" class="links">
+          <a style="cursor:none" href="ming_n_out.html">
+          <!-- <img src="../assets/rhinestone4.png" style="width:19vw;height:19vw"> -->
+          <div>ming-n-out</div></a>
+      </div>
+
+      <div id="five" class="links">
+          <a style="cursor:none" href="cannabliss.html">
+          <!-- <img src="../assets/rhinestone0.png" style="width:19vw;height:19vw"> -->
+          <div>cannabliss</div></a>
+      </div>
+
+      <footer>wendellen</footer>
+
+    </div>
+
+    <div id="mycursor"></div>
 
   </body>
 </html>

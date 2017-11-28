@@ -1,8 +1,89 @@
 html {
   height: 100%;
+  bottom: 0;
+  cursor: none;
 }
 
 body {
-  background-image: url("../assets/checkerboard-perspective.jpg");
-  background-size: cover;
+  background: linear-gradient(mediumturquoise, mediumorchid);
+  user-select: none;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  cursor: none;
+}
+
+#mycursor {
+  pointer-events: none;
+ 	width: 300px;
+ 	height: 270px;
+ 	background: url('../assets/butterfly.gif') no-repeat left top;
+  background-size: contain;
+  position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	z-index: 10000;
+  transition: all .2s ease-out;
+}
+
+footer {
+  color: #FF32D7;
+  font-family: 'Lobster', cursive;
+  font-size: 24vw;
+  text-shadow: 5px 5px #FF00CD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+}
+
+.background{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+  width: 30vw;
+  height: relative;
+  display: block;
+  overflow: scroll;
+  position: absolute;
+}
+
+.links {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  opacity: 0.6;
+  width: 30vw;
+  position: relative;
+}
+
+.links div {
+  color: white;
+  font-family: 'Lekton', sans-serif;
+  font-size: 8vh;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  width: 100%;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+a:active {
+    text-decoration: none;
+    color: white;
 }

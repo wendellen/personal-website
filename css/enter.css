@@ -1,10 +1,7 @@
-html {
-
-}
-
 body {
   background: url('../assets/hypnohearts-bw.png') no-repeat;
-  background-size: 100%, 100%;
+  background-size: cover;
+  background-attachment: fixed;
   user-select: none;
   overflow: hidden;
   cursor: none;

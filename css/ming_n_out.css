@@ -3,8 +3,10 @@ html {
 }
 
 body {
-  background: url('../assets/hypnohearts-bw.png') no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  overflow: hidden;
+  /*background-color:*/
+  background-image: url('../assets/pageant9.png'), url('../assets/pageant4.png');
+  background-repeat: space;
+  background-size: auto;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }

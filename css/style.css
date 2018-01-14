@@ -1,4 +1,5 @@
 html {
+  width: 100%;
   height: 100%;
   bottom: 0;
   cursor: none;
@@ -31,11 +32,9 @@ footer {
   font-family: 'Lobster', cursive;
   font-size: 24vw;
   text-shadow: 5px 5px #FF00CD;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: fixed;
   bottom: 0;
+  right: 4vw;
 }
 
 .background{
@@ -43,26 +42,26 @@ footer {
   align-items: center;
   justify-content: center;
   margin: 40px;
-  width: 40vw;
-  height: relative;
+  width: 90%;
+  height: 60%;
   display: block;
-  overflow: scroll;
+  overflow-y: scroll;
   position: absolute;
 }
 
 .links {
   display: flex;
-  align-items: left;
-  justify-content: left;
+  align-items: center;
+  justify-content: center;
   opacity: 0.6;
-  width: 40vw;
   position: relative;
+  overflow-y: scroll;
 }
 
 .links div {
   color: white;
   font-family: 'Lekton', sans-serif;
-  font-size: 8vh;
+  font-size: 6vmin;
   display: flex;
   align-items: left;
   justify-content: left;

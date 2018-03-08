@@ -4,9 +4,8 @@ html {
 
 body {
   /*background-color:*/
-  background-image: url('../assets/pageant9.png'), url('../assets/pageant4.png');
-  background-repeat: space;
-  background-size: auto;
+  background-image: url('../assets/pageant4.png');
+  background-size: cover;
   overflow-x: hidden;
   overflow-y: scroll;
 }

@@ -6,18 +6,17 @@ html {
 }
 
 body {
-  background: linear-gradient(mediumturquoise, mediumorchid);
-  background-attachment: fixed;
-  overflow-x: hidden;
-  overflow-y: scroll;
+  background-image: url('../assets/me2.png');
+  background-size: cover;
+  background-position: right bottom;
   user-select: none;
   cursor: none;
 }
 
 #mycursor {
   pointer-events: none;
- 	width: 300px;
- 	height: 270px;
+ 	width: 200px;
+ 	height: 200px;
  	background: url('../assets/butterfly.gif') no-repeat left top;
   background-size: contain;
   position: absolute;
@@ -27,7 +26,7 @@ body {
   transition: all .2s ease-out;
 }
 
-footer {
+/* footer {
   color: #FF32D7;
   font-family: 'Lobster', cursive;
   font-size: 24vw;
@@ -35,36 +34,43 @@ footer {
   position: fixed;
   bottom: 0;
   right: 4vw;
-}
+} */
 
 .background{
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 40px;
-  width: 90%;
-  height: 60%;
+  width: 100%;
+  height: 100%;
   display: block;
   overflow-y: scroll;
   position: absolute;
 }
 
+#linksContainer {
+  position: absolute;
+  right: 50%;
+  bottom: 30%;
+
+}
+
 .links {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: right;
+  justify-content: right;
   opacity: 0.6;
   position: relative;
   overflow-y: scroll;
 }
 
 .links div {
-  color: white;
-  font-family: 'Lekton', sans-serif;
+  color: pink;
+  font-family: 'lobster', sans-serif;
   font-size: 6vmin;
   display: flex;
-  align-items: left;
-  justify-content: left;
+  align-items: right;
+  justify-content: right;
   width: 100%;
 }
 

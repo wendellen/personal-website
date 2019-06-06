@@ -1,0 +1,89 @@
+html {
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  cursor: none;
+}
+
+body {
+  background: linear-gradient(mediumturquoise, mediumorchid);
+  background-attachment: fixed;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  user-select: none;
+  cursor: none;
+}
+
+#mycursor {
+  pointer-events: none;
+ 	width: 300px;
+ 	height: 270px;
+ 	background: url('../assets/butterfly.gif') no-repeat left top;
+  background-size: contain;
+  position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	z-index: 10000;
+  transition: all .2s ease-out;
+}
+
+footer {
+  color: #FF32D7;
+  font-family: 'Lobster', cursive;
+  font-size: 24vw;
+  text-shadow: 5px 5px #FF00CD;
+  position: fixed;
+  bottom: 0;
+  right: 4vw;
+}
+
+.background{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+  width: 90%;
+  height: 60%;
+  display: block;
+  overflow-y: scroll;
+  position: absolute;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.6;
+  position: relative;
+  overflow-y: scroll;
+}
+
+.links div {
+  color: white;
+  font-family: 'Lekton', sans-serif;
+  font-size: 6vmin;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  width: 100%;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+a:active {
+    text-decoration: none;
+    color: white;
+}
